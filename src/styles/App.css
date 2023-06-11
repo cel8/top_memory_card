@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: inherit;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid black;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+
+.card-item > img {
+  width: 30vh;
+}
